@@ -1,52 +1,124 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Personal Trainer
 
-Welcome luis198327,
+## Code Institute Mile Stone 1 Project - Static Front End Site
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The project brief was to create a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. 
 
-## Gitpod Reminders
+<!--Add link to live web page here and show responsive design-->
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Personal-Trainer <!--confirm website URL-->
+The website has been created to provide a personal training service to the local and surrounding areas of Aylesbury, Buckinghamshire to keep fit with a personal training plan.
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+### Strategy - User Stories
+#### Site Owners Goals
++ The main goal is to provide a bespoke training plan to all clients of all ages, no matter their fitness abilities.
++ Allow clients to contact for information and engage with their own training needs.
 
-Another blue button should appear to click: _Open Browser_.
+#### External User Goals
++ As a first time visitor to the site, I want to clearly understand what Personal Trainer offers.
++ I want to be able to know who the Personal Trainer is and what qualifications/experience the trainer is so I know that I am being trained well.
++ Able to do my own research and follow the trainer on social media so I can see feedback/recommendations on the service offered.
++ Able to make the necessary enquiries in how to initalise the training program or find more information and price of the service.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Scope
+In this release, I wanted to include:
++ Header section - this will contain company logo and basic navigations bar.
++ Body section - this will contain:
+    + A welcome message with main image
+    + 3 main clickable box areas to navigate to the main content of the site, which are:
+        + Service offered.
+        + Information about the personal trainer.
+        + Enquire page which will have a form to complete and show the location.
++ Footer section - this will include social media links for clients to follow the trainer.
 
-A blue button should appear to click: _Make Public_,
+### Structure
+The layout of the site will have 4 html pages:
++ A home page
++ A services page
++ An about me page
++ An enquire page
 
-Another blue button should appear to click: _Open Browser_.
+The navigational bar would be used to offer links to get to the intended page at one click of a button.  This will enable a consistent look and feel to the user. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The order of the pages and content is strategically ordered by Services offered > About me > Enquire, as this will allow a user to know what services are offered as the primary page having navigated away from the home page or viewing on smaller devices. 
 
-To log into the Heroku toolbelt CLI you can use:
+The personal trainer about me page is next which enables a user to find further information about the trainer before moving onto the enquiry page.
 
-`heroku login -i`
+The use of social media links in the footer section of each web page will keep the consistent look and feel of the course.
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+### Skeleton
+I used wireframes to put together a very basic mock-up of the site based on a desktop/tablet and mobile devices.
+<!--Link to wireframe to be added-->
+The wireframe can be found here.
 
-## Updates Since The Instructional Video
+### Surface
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Typography 
++ Open Sans is used for main headings, specifically h1 and h2 headings.
++ All other text uses Montserrat font type.
++ The fall back font type is Sans Serif should the imported fonts do not load correctly.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Colours
++ Font colour will be predominately white (unless hover over effects for example feature).  The font colour allows the text to stand out against most dark backgrounds.
++ Background colours will be black.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Imagery
+<!--TO BE CONFIRMED  The large, background hero image is designed to catch the user's attention and make it obvious immediately what the site is all about.-->
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features
+The site features 4 main html pages:
+1. A home page which will have a welcome message on page landing.  It will have 3 boxes in the main content to act as site navigation, to the Services offered, About me, Enquire web pages. 
+<!--Add screenshoot of the home page-->
+2. A page that will outline the Services offered, which is split into 4 sub-categories:
+    + Beginner - aimed for people getting into their fitness routines.
+    + Intermediate - aimed for people who have either had signed up to the beginner course or wish to challenge their fitness further.
+    + Advanced - designed to be more specific training for a specific goal/upcoming event.
+    + Group - aimed at providing a training plan for a small group in a public area.
+    <!--Add screenshoot of the services offered page-->
+3. About me page to provide information about the personal trainer and experience including a welcome video to introduce the trainer.
+<!--Add screenshoot of the about me section-->
+4. An Enquire page which will allow a user to contact the trainer for information and provide details to contact the client back in order to book a session separately.
+<!--Add screenshoot of the enquire form section-->
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Each web page will contain a navigational bar which links to each of the 4 web pages.  The footer section will also be consistent for the user experience on each page with social media links. This will enable a user/client to follow the trainer for advice and information they share.
+<!--Add screenshoots of the nav and footer sections-->
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left To Implement
+Additional features that I would like to include in a future release would be to:
++ Add a booking system for clients to rebook sessions, so they can do this and save the trainer time, which will also help the user experience and repeat business.
++ More information of prices and an ability to accept payments to book sessions (certainly more for regular clients if the service is more generic and not bespoke)
++ Add more online content with pictures/videos of training sessions and perhaps testimonials of regular clients 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Technologies Used
+### Languages Used
++ HTML5
++ CSS3
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Frameworks, Libraries & Programs Used
+<!--Add links to all the resources used-->
 
----
+## Testing
+### Testing User Stories From User Experience (UX) Section
 
-Happy coding!
+### Further Testing
+
+### Known Bugs
+
+## Deployment
+### GitHub Pages
+### Making A Local Clone
+
+## Credits
+### Code
+
+### Content
++ All content was written by the developer.
+
+### Media
+
+
+### Acknowledgements
++ I used the Code Institute GitHub template as a basis for setting up my repository.
++ I would like to thank my mentor Spencer Barriball for his review and ongoing support with this project.
