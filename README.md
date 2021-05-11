@@ -98,6 +98,10 @@ Additional features that I would like to include in a future release would be to
 
 ### Frameworks, Libraries & Programs Used
 <!--Add links to all the resources used-->
++ [GitPod](https://www.gitpod.io/) - used as the development environment for my website. I also used Git for Version Control in the project.
++ [GitHub](https://github.com/) - used to store the projects code after being pushed from GitPod.
++ [Google fonts](https://fonts.google.com/) - used to import the 'Open Sans' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
++ [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
