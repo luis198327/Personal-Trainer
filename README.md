@@ -115,13 +115,13 @@ Additional features that I would like to include in a future release would be to
 ### Making A Local Clone
 
 ## Credits
-### Code
-
 ### Content
 + All content was written by the developer.
 
-### Media
+### Code
 
+### Media
++ The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
