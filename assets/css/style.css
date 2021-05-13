@@ -4,6 +4,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #FFF;
     background: #000;
+    margin: 5px;
+    padding: 0;
 }
 
 /* Headings */
@@ -62,4 +64,39 @@ nav li a:hover {
   float: right;
   margin-right: 10px;
   color: #000;
+}
+
+/* Footer */
+
+/** Social Media links **/
+
+footer {
+  height: 50px;  /* How do i make it so that the social links remain aligned vertically when the height is changed? */
+  border: 2px solid #FFF;
+  background-color: #aaa9ad;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;   /* How do i get the footer margin to line up with the nav in the footer? */
+}
+
+.footer-social {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer-social > li {
+  display: inline;
+  padding-left: 20px; 
+  
+}
+.footer-social i {
+  font-size: 120%;
+}
+
+.footer-social a:hover {
+  zoom: 150%;
 }
