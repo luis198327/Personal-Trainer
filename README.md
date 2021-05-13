@@ -102,6 +102,7 @@ Additional features that I would like to include in a future release would be to
 + [GitHub](https://github.com/) - used to store the projects code after being pushed from GitPod.
 + [Google fonts](https://fonts.google.com/) - used to import the 'Open Sans' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 + [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
++ [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
