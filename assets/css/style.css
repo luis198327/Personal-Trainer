@@ -66,6 +66,24 @@ nav li a:hover {
   color: #000;
 }
 
+/* Welcome */
+
+#welcome {
+  height: 100px;
+  width: 100%;
+  border: 2px solid red;
+}
+
+#welcome-text {
+  text-align: center;
+  padding: 5px;
+  
+}
+#welcome-text h1 {
+  text-align: center;
+   
+}
+
 /* Footer */
 
 /** Social Media links **/
