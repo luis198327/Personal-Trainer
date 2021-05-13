@@ -86,19 +86,34 @@ nav li a:hover {
 /* 3 Options box on home page */
 
 .options {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 2px solid yellow;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 0
+}
+
+.options a {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
 }
 
 .options-box {
-  height: 350px;
-  width: 25%;
+  height: 250px;
+  width: 22%;
   border: 2px solid green;
-  display: inline-block;
-  margin-right: 25px;
+  float: left;
+  margin-left: 8%;
+}
+
+.options-box li {
+  text-align: left;
+}
+
+.options-box:hover {
+  background-color: #aaa9ad;
+  color: #000;
 }
 
 /* Footer */
