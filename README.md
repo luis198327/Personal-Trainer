@@ -103,6 +103,7 @@ Additional features that I would like to include in a future release would be to
 + [Google fonts](https://fonts.google.com/) - used to import the 'Open Sans' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 + [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
 + [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
++ Google Images - used to search for images for website including logo and hero image.  Details can be found under the Credits section.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
@@ -123,6 +124,7 @@ Additional features that I would like to include in a future release would be to
 
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
++ The Personal Trainer hero image was searched using google images and taken from [elevate fitness](https://elevatesyracuse.com/ten-reasons-to-become-a-personal-trainer/) website.
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
