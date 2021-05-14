@@ -168,7 +168,7 @@ footer {
   }
 
   #hero-image {
-    background: url(../images/personal-trainer.jpg) no-repeat center center;
+    zoom: 90%;
   }
 
   .options {
@@ -180,11 +180,58 @@ footer {
   }
 
   .options-box {
-    height: 300px;
+    height: 325px;
     width: 20%;
     border: 2px solid green;
     float: left;
     margin-left: 7%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* For medium screen sizes below 950px wide and down */
+@media screen and (max-width: 950px) {
+  /* need help with setting the nav bar so its responsive*/
+  nav {
+    height: 150px;
+    width: 100%;
+    border: 2px solid #FFF;
+    background-color: #aaa9ad;
+    border-radius: 5px;
+  }
+   
+    nav ul {
+    list-style-type: none;
+    clear: left;
+    float: left;
+    display: block;
+  }
+
+  .company-name {
+    visibility: hidden;
+  }
+
+  #welcome {
+    width: 100%;
+    height: 170px;
+  }
+
+  #hero-image {
+    background: url(../images/personal-trainer.jpg) no-repeat right;
+  }
+
+  .options {
+    height: 400px;
+    width: 100%;
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .options-box {
+    height: 250px;
+    width: 22%;
+    border: 2px solid green;
     background: rgba(0, 0, 0, 0.5);
   }
 
