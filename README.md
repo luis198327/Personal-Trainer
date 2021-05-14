@@ -50,8 +50,8 @@ The use of social media links in the footer section of each web page will keep t
 
 ### Skeleton
 I used wireframes to put together a very basic mock-up of the site based on a desktop/tablet and mobile devices.
-<!--Link to wireframe to be added-->
-The wireframe can be found here.
+
+The wireframe can be found [here](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/wireframe.pdf).
 
 ### Surface
 
