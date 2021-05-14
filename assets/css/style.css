@@ -77,21 +77,25 @@ nav li a:hover {
 #welcome-text {
   text-align: center;
   padding: 5px;
-  
 }
+
 #welcome-text h1 {
-  text-align: center;
-   
+  text-align: center; 
+}
+
+/* Hero Image */
+
+#hero-image {
+  background: url(../images/personal-trainer.jpg) no-repeat center center;
 }
 /* 3 Options box on home page */
 
 .options {
-  height: 300px;
+  height: 400px;
   width: 100%;
   border: 2px solid yellow;
   text-align: center;
   padding: 50px 0;
-  background: url(../images/personal-trainer.jpg) no-repeat center center;
 }
 
 .options a {
@@ -116,6 +120,7 @@ nav li a:hover {
 .options-box:hover {
   background-color: #FFF;
   color: #000;
+  font-weight: bold;
 }
 
 /* Footer */
