@@ -14,7 +14,7 @@ h1 h2 h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Nav bar */
+/* Nav bar & Logo */
 
 nav {
   height: 80px;
@@ -60,6 +60,7 @@ nav li a:hover {
   font-weight: bold
 }
 
+/* Company name - top right on big screen sizes */
 .company-name {
   float: right;
   margin-right: 10px;
@@ -126,18 +127,16 @@ nav li a:hover {
 
 /* Footer */
 
-/** Social Media links **/
-
 footer {
-  height: 80px;  /* How do i make it so that the social links remain aligned vertically when the height is changed? */
+  height: 80px;
   border: 2px solid #FFF;
   background-color: #aaa9ad;
   border-radius: 5px;
   color: #000;
   font-weight: bold;
-  bottom: 0;
-  width: 100%;
 }
+
+/** Social Media links **/
 
 .footer-social {
   text-decoration: none;
@@ -151,11 +150,12 @@ footer {
 }
 
 .footer-social i {
-  font-size: 120%;
+  font-size: 150%;
+  padding: 10px;
 }
 
 .footer-social a:hover {
-  zoom: 150%;
+  zoom: 120%;
 }
 
 /* Media Queries */
@@ -235,5 +235,4 @@ footer {
     background: rgba(0, 0, 0, 0.5);
     display: block;
   }
-
 }
