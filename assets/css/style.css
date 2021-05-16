@@ -86,12 +86,13 @@ nav li a:hover {
 /* Hero Image */
 
 #hero-image {
-  background: url(../images/personal-trainer.jpg) no-repeat center center;
+  background: url('../images/personal-trainer.jpg') no-repeat center center;
+  background-size: cover;
 }
 /* 3 Options box on home page */
 
 .options {
-  height: 400px;
+  height: 350px;
   width: 100%;
   border: 2px solid yellow;
   text-align: center;
@@ -128,15 +129,14 @@ nav li a:hover {
 /** Social Media links **/
 
 footer {
-  height: 50px;  /* How do i make it so that the social links remain aligned vertically when the height is changed? */
+  height: 80px;  /* How do i make it so that the social links remain aligned vertically when the height is changed? */
   border: 2px solid #FFF;
   background-color: #aaa9ad;
   border-radius: 5px;
   color: #000;
   font-weight: bold;
-  position: fixed;
   bottom: 0;
-  width: 100%;   /* How do i get the footer margin to line up with the nav in the footer? */
+  width: 100%;
 }
 
 .footer-social {
@@ -147,9 +147,9 @@ footer {
 
 .footer-social > li {
   display: inline;
-  padding-left: 20px; 
-  
+  padding-left: 20px;  
 }
+
 .footer-social i {
   font-size: 120%;
 }
@@ -233,6 +233,7 @@ footer {
     width: 22%;
     border: 2px solid green;
     background: rgba(0, 0, 0, 0.5);
+    display: block;
   }
 
 }
