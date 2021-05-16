@@ -60,13 +60,6 @@ nav li a:hover {
   font-weight: bold
 }
 
-/* Company name - top right on big screen sizes */
-.company-name {
-  float: right;
-  margin-right: 10px;
-  color: #000;
-}
-
 /* Welcome Message */
 
 #welcome {
