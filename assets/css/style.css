@@ -148,6 +148,16 @@ footer {
 
 /* Media Queries */
 
+@media(max-width: 968px) {
+  .options-box {
+      height: 100%;
+      width: 100%;
+      float: left;
+      background: rgba(0, 0, 0, 0.2);
+      margin: 2rem 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
       display: none;
