@@ -105,6 +105,7 @@ Additional features that I would like to include in a future release would be to
 + [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
 + Google Images - used to search for images for website including logo and hero image.  Details can be found under the Credits section.
 + [W3Schools](https://www.w3schools.com/) - used to refer to as additional support and to insert code into my webpage.  The code used is referenced in the Code section below. 
++ [GIMP](https://www.gimp.org/) - used to assist in making the hero image transparent and setting the opacity to 75%.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
