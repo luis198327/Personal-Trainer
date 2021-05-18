@@ -2,8 +2,6 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: #FFF;
-    background: #000;
     margin: 0;
     padding: 0;
 }
@@ -28,6 +26,7 @@ h1 h2 h3 {
   display: block;
   color: #f2f2f2;
   text-align: center;
+  font-weight: 500;
   padding: 24px 24px;
   text-decoration: none;
   font-size: 18px;
@@ -49,33 +48,37 @@ h1 h2 h3 {
 /* Home logo icon in Nav bar*/
 
 .topnav img {
-  height: 20px;
-  width: 20px;
+  height: 1rem;
+  width: 1rem;
 }
 
-/* Welcome Message */
+/* Welcome Section Title and Hero image*/
 
 #welcome {
-  height: 100px;
+  height: 600px;
   width: 100%;
-  border: 2px solid red;
+  background: url('../images/personal-trainer.jpg') no-repeat center center;
+  background-size: cover;
 }
+
+#welcome h1 {
+  text-align: left;
+  color: #000; 
+  padding-left: 1rem;
+}
+
+/* Welcome message */
 
 #welcome-text {
   text-align: center;
   padding: 5px;
 }
 
-#welcome-text h1 {
+#welcome-text h2 {
   text-align: center; 
+  color: #000;
 }
 
-/* Hero Image */
-
-#hero-image {
-  background: url('../images/personal-trainer.jpg') no-repeat center center;
-  background-size: cover;
-}
 /* 3 Options box on home page */
 
 .options {
