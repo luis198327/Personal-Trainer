@@ -104,6 +104,7 @@ Additional features that I would like to include in a future release would be to
 + [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
 + [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
 + Google Images - used to search for images for website including logo and hero image.  Details can be found under the Credits section.
++ [W3Schools](https://www.w3schools.com/) - used to refer to as additional support and to insert code into my webpage.  The code used is referenced in the Code section below. 
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
@@ -121,6 +122,7 @@ Additional features that I would like to include in a future release would be to
 + All content was written by the developer.
 
 ### Code
++ I used code from W3 Schools to be able to produce a responsive navigational bar.  The script added to the html pages has been clearly referenced to this. 
 
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
@@ -128,4 +130,5 @@ Additional features that I would like to include in a future release would be to
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
++ I use W3Schools to assist with some features and to develop my understanding.
 + I would like to thank my mentor Spencer Barriball for his review and ongoing support with this project.
