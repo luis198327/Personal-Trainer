@@ -130,7 +130,6 @@ h1 h2 h3 {
   border: 1px black solid;
   float: left;
   margin: 2rem 1rem;
-  background: rgba(170, 169, 173, 0.3);
 }
 
 #video video {
