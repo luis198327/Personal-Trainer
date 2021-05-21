@@ -133,6 +133,11 @@ h1 h2 h3 {
   background: rgba(170, 169, 173, 0.3);
 }
 
+#video video {
+  height: 350px;
+  width: 80%;
+  padding: 1rem 0;
+}
 
 /* Footer */
 
