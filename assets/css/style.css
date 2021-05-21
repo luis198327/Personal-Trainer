@@ -186,6 +186,12 @@ footer {
     background-size: cover;
     background-position: top;
   }
+
+  #enquire {
+    background: url('../images/enquire.jpeg') no-repeat center center;
+    background-size: cover;
+    
+  }
 }
 
 @media screen and (max-width: 600px) {

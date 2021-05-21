@@ -106,6 +106,7 @@ Additional features that I would like to include in a future release would be to
 + Google Images - used to search for images for website including logo and hero image.  Details can be found under the Credits section.
 + [W3Schools](https://www.w3schools.com/) - used to refer to as additional support and to insert code into my webpage.  The code used is referenced in the Code section below. 
 + [GIMP](https://www.gimp.org/) - used to assist in making the hero image transparent and setting the opacity to 75%.
++ Refer to the media section below for where individual pictures were taken from.  I used resources such as [Pexels](https://www.pexels.com/) as an example. 
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
@@ -128,9 +129,9 @@ Additional features that I would like to include in a future release would be to
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
 + The Personal Trainer hero image was searched using google images and taken from [elevate fitness](https://elevatesyracuse.com/ten-reasons-to-become-a-personal-trainer/) website.
-+ The images used for the option boxes are taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
++ The image used for the Services option box background is taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
 + The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
-
++ The image for the Enquire options box background is taken from [pexels](https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/) website.
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
