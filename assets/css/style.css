@@ -52,6 +52,7 @@ h1 h2 h3 {
   width: 1rem;
 }
 
+/* HOME PAGE */
 /* Welcome Section Title and Hero image*/
 
 #welcome {
@@ -110,6 +111,28 @@ h1 h2 h3 {
   background-color: rgba(255, 255, 255, 0.7);
   color: #000;
 }
+
+/* ABOUTME PAGE */
+
+#me {
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background: url('../images/about-me.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: top;
+}
+
+.box-me {
+  height: 400px;
+  width: 45%;
+  border: 1px black solid;
+  float: left;
+  margin: 2rem 1rem;
+  background: rgba(170, 169, 173, 0.3);
+}
+
 
 /* Footer */
 

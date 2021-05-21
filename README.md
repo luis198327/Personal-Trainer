@@ -56,8 +56,8 @@ The wireframe can be found [here](https://github.com/luis198327/Personal-Trainer
 ### Surface
 
 #### Typography 
-+ Open Sans is used for main headings, specifically h1 and h2 headings.
-+ All other text uses Montserrat font type.
++ Montserrat is used for main headings, specifically h1, h2 and h3 headings.
++ All other text uses Raleway font type.
 + The fall back font type is Sans Serif should the imported fonts do not load correctly.
 
 #### Colours
@@ -77,7 +77,9 @@ The site features 4 main html pages:
     + Advanced - designed to be more specific training for a specific goal/upcoming event.
     + Group - aimed at providing a training plan for a small group in a public area.
     <!--Add screenshoot of the services offered page-->
-3. About me page to provide information about the personal trainer and experience including a welcome video to introduce the trainer.
+3. About me page to provide information about the personal trainer and experience including a welcome video to introduce the trainer.  For the purposes of this project, an example video was added.  Refer to Media section below for where this was taken from.
+
+The background provides a picture of the personal trainer.
 <!--Add screenshoot of the about me section-->
 4. An Enquire page which will allow a user to contact the trainer for information and provide details to contact the client back in order to book a session separately.
 <!--Add screenshoot of the enquire form section-->
@@ -132,6 +134,7 @@ Additional features that I would like to include in a future release would be to
 + The image used for the Services option box background is taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
 + The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
 + The image for the Enquire options box background is taken from [pexels](https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/) website.
++ Videeo under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). 
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
