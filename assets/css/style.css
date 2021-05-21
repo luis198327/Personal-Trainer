@@ -180,6 +180,12 @@ footer {
     background: url('../images/services-image.jpg') no-repeat center center;
     background-size: cover;
   }
+
+  #about-me {
+    background: url('../images/about-me.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: top;
+  }
 }
 
 @media screen and (max-width: 600px) {

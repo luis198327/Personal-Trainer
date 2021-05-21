@@ -128,7 +128,9 @@ Additional features that I would like to include in a future release would be to
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
 + The Personal Trainer hero image was searched using google images and taken from [elevate fitness](https://elevatesyracuse.com/ten-reasons-to-become-a-personal-trainer/) website.
-+ The images used for the option boxes are taken from [pikwizard](https://pikwizard.com/?q=trainer) website. 
++ The images used for the option boxes are taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
++ The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
+
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
