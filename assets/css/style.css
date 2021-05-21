@@ -129,10 +129,13 @@ footer {
   text-decoration: none;
   list-style-type: none;
   text-align: center;
-  padding-inline-start: 0 !important;
 }
 
-.footer-social > li {
+.footer-social ul {
+  padding-inline-start: 0;
+}
+
+.footer-social li {
   display: inline;
   padding: 1rem 2rem;
 }
@@ -148,13 +151,34 @@ footer {
 
 /* Media Queries */
 
-@media(max-width: 968px) {
+@media(max-width: 971px) {
   .options-box {
-      height: 100%;
+      height: 90%;
       width: 100%;
+      display: block;
       float: left;
-      background: rgba(0, 0, 0, 0.2);
+      background: rgba(170, 169, 173, 0.3);
       margin: 2rem 0;
+  }
+
+  .options-box ul {
+    padding-inline-start: 0;
+  }
+
+  .options-box ul li {
+    text-align: center;
+    list-style-position: inside;
+    margin: auto 0;
+  }
+
+  #hero-image {
+    height: 220px;
+    width: 100%;
+  }
+
+  #services {
+    background: url('../images/services-image.jpg') no-repeat center center;
+    background-size: cover;
   }
 }
 
