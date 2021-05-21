@@ -75,6 +75,7 @@ h1 h2 h3 {
 #welcome-text h2 {
   text-align: center; 
   color: #000;
+  font-size: 1.25em;
 }
 
 /* 3 Options box on home page */
@@ -151,6 +152,8 @@ footer {
 
 /* Media Queries */
 
+/* Media query to changes option boxes on index.html page to position on screen sizes up to 971px */
+
 @media(max-width: 971px) {
   .options-box {
       height: 90%;
@@ -194,6 +197,8 @@ footer {
   }
 }
 
+/* Media query to changes NAV BAR and set h1 heading to centre position */
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
       display: none;
@@ -203,6 +208,7 @@ footer {
       display: block;
   }
 }
+
 @media screen and (max-width: 600px) {
   .topnav.responsive {
       position: relative;
@@ -217,88 +223,35 @@ footer {
       display: block;
       text-align: left;
   }
+
+  #welcome h1 {
+    text-align: center;
+  }
 }
 
+/* Media query to changes Footer */
+
 @media(max-width: 540px) {
-  .footer-social > li {
+  .footer-social li {
       display: inline;
       padding: 1rem 1rem;
   }
 }
 
-/* For larger to medium screen sizes from 1250px down *//*
-@media screen and (max-width: 1250px) {
-  #welcome {
-    width: 100%;
-    height: 130px;
-  }
+/* Media query to change hero image and enquiry box size and footer padding */
 
+@media(max-width: 454px) {
   #hero-image {
-    zoom: 90%;
-  }
-
-  .options {
-    height: 500px;
+    height: 270px;
     width: 100%;
-    border: 2px solid yellow;
-    text-align: center;
-    padding: 50px 0 0 0;
   }
 
-  .options-box {
-    height: 325px;
-    width: 20%;
-    border: 2px solid green;
-    float: left;
-    margin-left: 7%;
-    background: rgba(0, 0, 0, 0.5);
-  }
-}
-
-/* For medium screen sizes below 950px wide and down *//*
-@media screen and (max-width: 950px) {
-  /* need help with setting the nav bar so its responsive*//*
-  nav {
-    height: 150px;
-    width: 100%;
-    border: 2px solid #FFF;
-    background-color: #aaa9ad;
-    border-radius: 5px;
-  }
-   
-    nav ul {
-    list-style-type: none;
-    clear: left;
-    float: left;
-    display: block;
+  #enquire {
+    height: 375px;
   }
 
-  .company-name {
-    visibility: hidden;
-  }
-
-  #welcome {
-    width: 100%;
-    height: 170px;
-  }
-
-  #hero-image {
-    background: url(../images/personal-trainer.jpg) no-repeat right;
-  }
-
-  .options {
-    height: 400px;
-    width: 100%;
-    border: 2px solid yellow;
-    text-align: center;
-    padding: 50px 0;
-  }
-
-  .options-box {
-    height: 250px;
-    width: 22%;
-    border: 2px solid green;
-    background: rgba(0, 0, 0, 0.5);
-    display: block;
+  .footer-social li {
+    display: inline;
+    padding: 0.5rem 0.5rem;
   }
 }
