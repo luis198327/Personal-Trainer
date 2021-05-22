@@ -132,10 +132,15 @@ h1 h2 h3 {
   margin: 2rem 1rem;
 }
 
+.box-me p {
+  font-weight: 600;
+}
+
 #video video {
   height: 350px;
-  width: 80%;
-  padding: 1rem 0;
+  width: 100%;
+  position: relative;
+  top: 50px;
 }
 
 /* Footer */
@@ -179,7 +184,28 @@ footer {
 
 /* Media Queries */
 
-/* Media query to changes option boxes on index.html page to position on screen sizes up to 971px */
+/* Media query to change image and content on aboutme.html page to position on screen sizes up to 1032px */
+
+@media(max-width: 1032px) {
+  #me {
+    height: 900px;
+  }
+  
+  .box-me {
+    height: 380px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  #bio p {
+    padding: 0 50px;
+  }
+}
+
+/* Media query to change option boxes on index.html page to position on screen sizes up to 971px */
 
 @media(max-width: 971px) {
   .options-box {
@@ -224,7 +250,25 @@ footer {
   }
 }
 
-/* Media query to changes NAV BAR and set h1 heading to centre position */
+/* Media query to change image and content on aboutme.html page to position on screen sizes up to 800px */
+
+@media(max-width: 800px) {
+  #me {
+    background-position: 20% 80%;
+    background-size: cover;
+  }
+
+  .box-me {
+    height: 420px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Media query to change NAV BAR and set h1 heading to centre position  to 600px*/
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -256,7 +300,25 @@ footer {
   }
 }
 
-/* Media query to changes Footer */
+/* Media query to change image and content on aboutme.html page to position on screen sizes up to 550px */
+
+@media(max-width: 550px) {
+  #me {
+    height: 1000px;
+    background-position: 30% 70%;
+    background-size: cover;
+  }
+
+  .box-me {
+    height: 470px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+/* Media query to change Footer up to 540px */
 
 @media(max-width: 540px) {
   .footer-social li {
@@ -265,16 +327,44 @@ footer {
   }
 }
 
-/* Media query to change hero image and enquiry box size and footer padding */
+/* Media query to change content on aboutme.html page to position on screen sizes up to 465px */
 
-@media(max-width: 454px) {
-  #hero-image {
-    height: 270px;
+@media(max-width: 465px) {
+  .box-me {
+    height: 550px;
     width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Media query to change image and content on aboutme.html page to position on screen sizes up to 400px */
+
+@media(max-width: 400px) {
+  #me {
+    height: 1100px;
+    background-position: 30% 70%;
+    background-size: cover;
   }
 
-  #enquire {
-    height: 375px;
+  .box-me {
+    height: 600px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Media query to change hero image and footer padding at 400px*/
+
+@media(max-width: 400px) {
+  #hero-image {
+    height: 250px;
+    width: 100%;
   }
 
   .footer-social li {
@@ -282,3 +372,15 @@ footer {
     padding: 0.5rem 0.5rem;
   }
 }
+
+/* Media query to change hero image at 360px*/
+
+@media(max-width: 360px) {
+  #hero-image {
+    height: 270px;
+    width: 100%;
+  }
+
+}
+
+/**NEED TO UPDATE MEDIA QUERIES FOR ABOUTME BELOW 400px and amend the image? **/
