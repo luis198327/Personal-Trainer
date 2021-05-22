@@ -61,11 +61,17 @@ The wireframe can be found [here](https://github.com/luis198327/Personal-Trainer
 + The fall back font type is Sans Serif should the imported fonts do not load correctly.
 
 #### Colours
-+ Font colour will be predominately white (unless hover over effects for example feature).  The font colour allows the text to stand out against most dark backgrounds.
-+ Background colours will be black.
++ Font colour will be predominately black (unless hover over effects for example feature).  The font colour allows the text to stand out against most backgrounds used.
++ Background colours will be black, unless an image is used.
++ The navigational bar and footer bar will be consistent throughout with a grey bar and white border and text.
+    + Within the navigational bar, a white background behind the page name will make it clear which page is currently active. 
 
 #### Imagery
-<!--TO BE CONFIRMED  The large, background hero image is designed to catch the user's attention and make it obvious immediately what the site is all about.-->
+The background hero image on the home page is designed to catch the user's attention and make it obvious immediately what the site is all about; Personal Trainer.
+
+The image on the aboutme page will show the Personal Trainer.  This is included so the user can easily identify the trainer.
+
+Use of other images are used to provide meaning behind each page/content.
 
 ## Features
 The site features 4 main html pages:
@@ -90,13 +96,14 @@ Each web page will contain a navigational bar which links to each of the 4 web p
 ### Features Left To Implement
 Additional features that I would like to include in a future release would be to:
 + Add a booking system for clients to rebook sessions, so they can do this and save the trainer time, which will also help the user experience and repeat business.
-+ More information of prices and an ability to accept payments to book sessions (certainly more for regular clients if the service is more generic and not bespoke)
-+ Add more online content with pictures/videos of training sessions and perhaps testimonials of regular clients 
++ More information of prices and an ability to accept payments to book sessions (certainly more for regular clients if the service is more generic and not bespoke).
++ Add more online content with pictures/videos of training sessions and perhaps testimonials of regular clients. 
 
 ## Technologies Used
 ### Languages Used
 + HTML5
 + CSS3
++ Javascript - taken from W3Schools for the responsive navigational bar.
 
 ### Frameworks, Libraries & Programs Used
 <!--Add links to all the resources used-->
@@ -123,10 +130,10 @@ Additional features that I would like to include in a future release would be to
 
 ## Credits
 ### Content
-+ All content was written by the developer.
++ All content was written by the developer, unless referenced below.
 
 ### Code
-+ I used code from W3 Schools to be able to produce a responsive navigational bar.  The script added to the html pages has been clearly referenced to this. 
++ To produce a responsive navigational bar, W3Schools was used and code/script added to the html page to produce this. 
 
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
@@ -134,7 +141,7 @@ Additional features that I would like to include in a future release would be to
 + The image used for the Services option box background is taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
 + The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
 + The image for the Enquire options box background is taken from [pexels](https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/) website.
-+ Videeo under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). 
++ Video under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). 
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
