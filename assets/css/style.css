@@ -158,17 +158,17 @@ h1 h2 h3 {
   height: 550px;
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 20px 0;
   background: url('../images/about-me.jpg') no-repeat center center;
   background-size: cover;
-  background-position: top;
+  background-attachment: fixed;
 }
 
 .box-me {
   height: 400px;
   width: 45%;
   float: left;
-  margin: 2rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .box-me p {
@@ -228,7 +228,6 @@ footer {
 @media(max-width: 1032px) {
   #me {
     height: 900px;
-    background-position: 30% 70%;
   }
   
   .box-me {
@@ -322,7 +321,6 @@ footer {
 @media(max-width: 800px) {
   #me {
     background-position: 20% 80%;
-    background-size: cover;
   }
 
   .box-me {
@@ -385,8 +383,6 @@ footer {
 @media(max-width: 550px) {
   #me {
     height: 1000px;
-    background-position: 20% 80%;
-    background-size: cover;
   }
 
   .box-me {
@@ -410,11 +406,6 @@ footer {
 /* Media query to change content on aboutme.html page to position on screen sizes up to 465px */
 
 @media(max-width: 465px) {
-  #me {
-    background-position: 30% 70%;
-    background-size: cover;
-  }
-
   .box-me {
     height: 550px;
     width: 100%;
@@ -430,7 +421,6 @@ footer {
 @media(max-width: 400px) {
   #me {
     height: 1100px;
-
   }
 
   .box-me {
@@ -483,8 +473,6 @@ footer {
 @media(max-width: 360px) {
   #me {
     height: 1200px;
-    background-position: 30% 70%;
-    background-size: cover;
   }
 
   #bio {
