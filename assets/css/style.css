@@ -122,7 +122,6 @@ h1 h2 h3 {
   background: url('../images/services-image.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  border: 1px solid black;
 }
 
 .box-serv {
@@ -130,7 +129,6 @@ h1 h2 h3 {
   width: 45%;
   float: left;
   margin: 1rem 1rem;
-  border: 1px solid red;
 }
 
 .box-serv li {
@@ -148,7 +146,6 @@ h1 h2 h3 {
   width: 95%;
   float: left;
   margin: 1rem 1rem;
-  border: 1px solid red;
   text-align: center;
 }
 
@@ -228,6 +225,7 @@ footer {
 @media(max-width: 1032px) {
   #me {
     height: 900px;
+    background-position: 20% 80%;
   }
   
   .box-me {
@@ -257,7 +255,6 @@ footer {
     float: left;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
   }
 
   .box-serv ul {
@@ -267,7 +264,6 @@ footer {
   .box-serv ul li {
     text-align: center;
     list-style-position: inside;
-    
   }
 }
 
@@ -312,7 +308,6 @@ footer {
   #enquire {
     background: url('../images/enquire.jpeg') no-repeat center center;
     background-size: cover;
-    
   }
 }
 
@@ -349,11 +344,13 @@ footer {
   .topnav.responsive {
       position: relative;
   }
+
   .topnav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
   }
+
   .topnav.responsive a {
       float: none;
       display: block;
@@ -398,8 +395,8 @@ footer {
 
 @media(max-width: 540px) {
   .footer-social li {
-      display: inline;
-      padding: 1rem 1rem;
+    display: inline;
+    padding: 1rem 1rem;
   }
 }
 
