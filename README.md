@@ -61,7 +61,7 @@ The wireframe can be found [here](https://github.com/luis198327/Personal-Trainer
 + The fall back font type is Sans Serif should the imported fonts do not load correctly.
 
 #### Colours
-+ Font colour will be predominately black (unless hover over effects for example feature).  The font colour allows the text to stand out against most backgrounds used.
++ Font colour will be predominately black (unless hover over effects for example feature or the background is black, in which case white will be used).  The font colour allows the text to stand out against most backgrounds used.
 + Background colours will be black, unless an image is used.
 + The navigational bar and footer bar will be consistent throughout with a grey bar and white border and text.
     + Within the navigational bar, a white background behind the page name will make it clear which page is currently active. 

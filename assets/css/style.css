@@ -112,6 +112,49 @@ h1 h2 h3 {
   color: #000;
 }
 
+/* SERVICES PAGE */
+
+#services-container {
+  height: 900px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background: url('../images/services-image.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  border: 1px solid black;
+}
+
+.box-serv {
+  height: 300px;
+  width: 45%;
+  float: left;
+  margin: 1rem 1rem;
+  border: 1px solid red;
+}
+
+.box-serv li {
+  text-align: left;
+}
+
+.box-serv p {
+  font-weight: 600;
+}
+
+.box-serv:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+}
+
+.click-to-enquire {
+  height: 50px;
+  width: 95%;
+  float: left;
+  margin: 1rem 1rem;
+  border: 1px solid red;
+  text-align: center;
+}
+
 /* ABOUTME PAGE */
 
 #me {
