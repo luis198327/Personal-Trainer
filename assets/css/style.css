@@ -135,9 +135,6 @@ h1 h2 h3 {
 
 .box-serv li {
   text-align: left;
-}
-
-.box-serv p {
   font-weight: 600;
 }
 
@@ -232,7 +229,6 @@ footer {
   #me {
     height: 900px;
     background-position: 30% 70%;
-
   }
   
   .box-me {
@@ -246,6 +242,34 @@ footer {
 
   #bio p {
     padding: 0 50px;
+  }
+}
+
+/* Media query to change positioning of boxes on services.html page on screen sizes up to 980px */
+
+@media(max-width: 980px) {
+  #services-container {
+    height: 1000px;
+    background-position: center;
+  }
+
+  .box-serv {
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+  }
+
+  .box-serv ul {
+    padding: inherit;
+  } 
+
+  .box-serv ul li {
+    text-align: center;
+    list-style-position: inside;
+    
   }
 }
 
