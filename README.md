@@ -116,6 +116,7 @@ Additional features that I would like to include in a future release would be to
 + [W3Schools](https://www.w3schools.com/) - used to refer to as additional support and to insert code into my webpage.  The code used is referenced in the Code section below. 
 + [GIMP](https://www.gimp.org/) - used to assist in making the hero image transparent and setting the opacity to 75%.
 + Refer to the media section below for where individual pictures were taken from.  I used resources such as [Pexels](https://www.pexels.com/) as an example. 
++ [Google Maps](https://www.google.com/maps/) - used to embed a location map into the website. The code is reference below and in the relevant html page.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
@@ -133,7 +134,8 @@ Additional features that I would like to include in a future release would be to
 + All content was written by the developer, unless referenced below.
 
 ### Code
-+ To produce a responsive navigational bar, W3Schools was used and code/script added to the html page to produce this. 
++ W3School - To produce a responsive navigational bar, W3Schools was used and code/script added to the html page to produce this. 
++ Google Maps - To embed the google map under the About Me section, i used the embed a map option within google maps to copy the specific iframe html code into my aboutme.html page.  I have changed a couple of settings to size the map differently.
 
 ### Media
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.

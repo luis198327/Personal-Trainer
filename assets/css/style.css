@@ -152,7 +152,7 @@ h1 h2 h3 {
 /* ABOUTME PAGE */
 
 #me {
-  height: 550px;
+  height: 900px;
   width: 100%;
   text-align: center;
   padding: 20px 0;
@@ -162,10 +162,11 @@ h1 h2 h3 {
 }
 
 .box-me {
-  height: 400px;
+  height: 460px;
   width: 45%;
   float: left;
   margin: 1rem 1rem;
+  padding: 0;
 }
 
 .box-me p {
@@ -177,6 +178,14 @@ h1 h2 h3 {
   width: 100%;
   position: relative;
   top: 50px;
+  padding: 0;
+}
+
+#location {
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin: 0 auto;
 }
 
 /* ENQUIRY PAGE */
@@ -276,7 +285,7 @@ footer {
 
 @media(max-width: 1032px) {
   #me {
-    height: 900px;
+    height: 1100px;
     background-position: 20% 80%;
   }
   
@@ -285,12 +294,27 @@ footer {
     width: 100%;
     display: block;
     float: left;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
 
   #bio p {
     padding: 0 50px;
+  }
+
+  #video video {
+    top: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    width: 90%;
+    position: static;
+    top: 50px;
+    padding: 0 1rem;
+  }
+  
+  #location h3 {
+    margin: 1rem 0;
   }
 }
 
@@ -367,7 +391,7 @@ footer {
 
 @media(max-width: 800px) {
   #me {
-    background-position: 20% 80%;
+    height: 1200px;
   }
 
   .box-me {
@@ -377,6 +401,10 @@ footer {
     float: left;
     margin: 0;
     padding: 0;
+  }
+   
+  #location h3 {
+    margin: 1rem;
   }
 }
 
@@ -440,17 +468,15 @@ footer {
 
 @media(max-width: 550px) {
   #me {
-    height: 1000px;
+    height: 1350px;
   }
 
   .box-me {
-    height: 470px;
+    height: 480px;
     width: 100%;
     display: block;
     float: left;
-    margin: 0;
-    padding: 0;
-  }
+  }  
 }
 
 /* MEDIA QUERY TO CHANGE FOOTER ON SCREEN SIZES UP TO 540px */
@@ -470,9 +496,13 @@ footer {
   }
 }
 
-/* MEDIA QUERY TO CHANGE CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 465px */
+/* MEDIA QUERY TO CHANGE CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 460px */
 
-@media(max-width: 465px) {
+@media(max-width: 460px) {
+  #me {
+    height: 1500px;
+  }
+
   .box-me {
     height: 550px;
     width: 100%;
@@ -487,7 +517,7 @@ footer {
 
 @media(max-width: 400px) {
   #me {
-    height: 1100px;
+    height: 1600px;
   }
 
   .box-me {
@@ -540,15 +570,15 @@ footer {
 
 @media(max-width: 360px) {
   #me {
-    height: 1200px;
+    height: 1675px;
   }
 
-  #bio {
-    height: 725px;
+  .box-me {
+    height: 650px;
     width: 100%;
-  }
-
-  #video {
-    height: 300px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
   }
 }
