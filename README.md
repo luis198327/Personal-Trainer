@@ -2,7 +2,7 @@
 
 ## Code Institute Mile Stone 1 Project - Static Front End Site
 
-The project brief was to create a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. 
+The project brief was to create a static front end project with a minimum of three separate page (or page areas) using HTML and CSS while following UX industry conventions.  This project is for educational use only and was created for the Code Institute Module of a Static Front End Site. 
 
 <!--Add link to live web page here and show responsive design-->
 
@@ -147,5 +147,6 @@ Additional features that I would like to include in a future release would be to
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.
-+ I use W3Schools to assist with some features and to develop my understanding.
++ I used W3Schools to assist with some features and to develop my understanding.
 + I would like to thank my mentor Spencer Barriball for his review and ongoing support with this project.
++ This project is for educational use only and was created for the Code Institute Module of a Static Front End Site.
