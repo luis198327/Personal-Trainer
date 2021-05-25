@@ -118,6 +118,7 @@ Additional features that I would like to include in a future release would be to
 + Refer to the media section below for where individual pictures were taken from.  I used resources such as [Pexels](https://www.pexels.com/) as an example. 
 + [Google Maps](https://www.google.com/maps/) - used to embed a location map into the website. The code is reference below and in the relevant html page.
 + [TinyPNG](https://tinypng.com/) - used to compress my images so that they reduce file size and load faster within the site.
++ [Clideo](https://clideo.com/editor/compress-video) - used to compress my video by 60% so it reduces file size and load faster within the site.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
