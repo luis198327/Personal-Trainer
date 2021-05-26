@@ -422,6 +422,14 @@ footer {
   }
 }
 
+/* MEDIA QUERY TO CHANGE BACKGROUND IMAGE POSITION ON ENQUIRE.HTML PAGE ON SCREEN SIZES UP TO 700px */
+
+@media screen and (max-width: 700px) {
+  #form {
+    height: 750px;
+  }
+}
+
 /* MEDIA QUERY TO CHANGE NAV BAR AND SET H1 HEADING TO CENTRE POSITION ON SCREEN SIZES UP TO 600px */
 
 @media screen and (max-width: 600px) {
@@ -525,6 +533,16 @@ footer {
     margin: 0;
     padding: 0;
   }
+}
+
+/* MEDIA QUERY TO CHANGE CHECKBOX POSITION ON ENQUIRE.HTML PAGE ON SCREEN SIZES UP TO 460px */
+
+@media screen and (max-width: 460px) {
+  .enquire-checkbox label {
+    /*display: block;
+    
+  }
+
 }
 
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 400px */
