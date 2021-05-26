@@ -98,7 +98,6 @@ Additional features that I would like to include in a future release would be to
 + Add a booking system for clients to rebook sessions, so they can do this and save the trainer time, which will also help the user experience and repeat business.
 + More information of prices and an ability to accept payments to book sessions (certainly more for regular clients if the service is more generic and not bespoke).
 + Add more online content with pictures/videos of training sessions and perhaps testimonials of regular clients. 
-+ Fix the form validation for the multiple checkbox option within the enquire form. Refer to known bug number 1 below.
 
 ## Technologies Used
 ### Languages Used
@@ -126,8 +125,7 @@ Additional features that I would like to include in a future release would be to
 
 ### Further Testing
 
-### Known Bugs
-1. You are able to submit the enquire form on the enquire page without selecting one of the 4 checkboxes.  Ideally one would need to be selected before the submission is accepted, but from researching I understand where a multiple checkbox needs validation, this requires JavaScript which is something I have not learned.  This will therefore need to be reviewed in a future deployment.   
+### Known Bugs   
 
 ## Deployment
 ### GitHub Pages
