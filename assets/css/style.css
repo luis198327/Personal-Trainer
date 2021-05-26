@@ -122,17 +122,17 @@ h1 h2 h3 {
 /* SERVICES PAGE */
 
 #services-container {
-  height: 900px;
+  height: 800px;
   width: 100%;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   background: url('../images/services-image.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .box-serv {
-  height: 300px;
+  height: 250px;
   width: 45%;
   float: left;
   margin: 1rem 1rem;
@@ -336,7 +336,7 @@ footer {
     width: 100%;
     float: left;
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
   }
 
   .box-serv ul {
@@ -412,6 +412,18 @@ footer {
    
   #location h3 {
     margin: 1rem;
+  }
+}
+
+/* MEDIA QUERY TO CHANGE POSITIONING OF BOXES ON SERVICES.HTML PAGE ON SCREEN SIZES UP TO 730px */
+
+@media(max-width: 730px) {
+  #services-container {
+    height: 1200px;
+  }
+
+  .box-serv {
+    height: 250px;
   }
 }
 
@@ -541,6 +553,20 @@ footer {
   }
 }
 
+/* MEDIA QUERY TO CHANGE POSITIONING OF BOXES ON SERVICES.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 410px */
+
+@media(max-width: 410px) {
+  #services-container {
+    height: 1400px;
+  }
+
+  .box-serv {
+    height: 290px;
+    width: 100%;
+  }
+}
+
+
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 400px */
 
 @media(max-width: 400px) {
@@ -571,19 +597,6 @@ footer {
 
 @media(max-width: 365px) {
   #hero-image {
-    height: 275px;
-    width: 100%;
-  }
-}
-
-/* MEDIA QUERY TO CHANGE POSITIONING OF BOXES ON SERVICES.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 360px */
-
-@media(max-width: 360px) {
-  #services-container {
-    height: 1400px;
-  }
-
-  .box-serv {
     height: 275px;
     width: 100%;
   }
