@@ -199,7 +199,7 @@ h1 h2 h3 {
   background: url('../images/enquire.jpeg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 675px;
+  height: 720px;
 }
 
 #enquire-form {
@@ -221,6 +221,16 @@ fieldset label {
   height: 30px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.enquire-checkbox p {
+  font-family: 'raleway' sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.enquire-checkbox {
+  font-size: 14px;
 }
 
 .message-input {
