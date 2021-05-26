@@ -28,9 +28,9 @@ In this release, I wanted to include:
 + Body section - this will contain:
     + A welcome message with main image
     + 3 main clickable box areas to navigate to the main content of the site, which are:
-        + Service offered.
-        + Information about the personal trainer.
-        + Enquire page which will have a form to complete and show the location.
+        + Services offered.
+        + Information about the personal trainer including a location map.
+        + an enquire page to submit details for the personal trainer to contact the user.
 + Footer section - this will include social media links for clients to follow the trainer.
 
 ### Structure
@@ -87,7 +87,7 @@ The site features 4 main html pages:
 
 The background provides a picture of the personal trainer.
 <!--Add screenshoot of the about me section-->
-4. An Enquire page which will allow a user to contact the trainer for information and provide details to contact the client back in order to book a session separately.
+4. An Enquire page which will allow a user to contact the trainer for information and provide details to contact the client back in order to book a session separately. A checkbox will be available to be checked should a user wish to subscribe to a newsletter, which is optional and therefore the required attribute is not set within the code. 
 <!--Add screenshoot of the enquire form section-->
 
 Each web page will contain a navigational bar which links to each of the 4 web pages.  The footer section will also be consistent for the user experience on each page with social media links. This will enable a user/client to follow the trainer for advice and information they share.
