@@ -223,16 +223,6 @@ fieldset label {
   border-radius: 5px;
 }
 
-.enquire-checkbox p {
-  font-family: 'raleway' sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.enquire-checkbox {
-  font-size: 14px;
-}
-
 .message-input {
   width: 100%;
   height: 5rem;
@@ -535,16 +525,6 @@ footer {
   }
 }
 
-/* MEDIA QUERY TO CHANGE CHECKBOX POSITION ON ENQUIRE.HTML PAGE ON SCREEN SIZES UP TO 460px */
-
-@media screen and (max-width: 460px) {
-  .enquire-checkbox label {
-    /*display: block;
-    
-  }
-
-}
-
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 400px */
 
 @media(max-width: 400px) {
@@ -612,5 +592,13 @@ footer {
     float: left;
     margin: 0;
     padding: 0;
+  }
+}
+
+/* MEDIA QUERY TO CHANGE CONTENT ON ENQUIRE.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 360px */
+
+@media(max-width: 360px) {
+  #form {
+    height: 850px;
   }
 }

@@ -52,19 +52,15 @@
                 <label for="phonenumber">Phone Number:</label>
                 <input class="text-input" id="phonenumber" name="phonenumber" type="tel" placeholder="01234123456"
                     maxlength="11" required>
-                <br>
-                <div class="enquire-checkbox">
-                    <p>Please confirm what service(s) you are interested in:</p>
-                    <label for="beginner">Beginner</label>
-                    <input id="beginner" name="service" value="beginner" type="checkbox">
-                    <label for="intermediate">Intermediate</label>
-                    <input id="intermediate" name="service" value="intermediate" type="checkbox">
-                    <label for="advanced">Advanced</label>
-                    <input id="advanced" name="service" value="advanced" type="checkbox">
-                    <label for="group">Group</label>
-                    <input id="group" name="service" value="group" type="checkbox">
-                </div>
-                <br>
+                <br><br>
+                <label for="service">Please confirm what service(s) you are interested in:</label>
+                    <select class="text-input" id="service" name="service">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="group">Group</option>
+                    </select>
+                <br><br>
                 <label for="message">Enter your message here:</label>
                 <textarea class="message-input" name="message" id="message" placeholder="Enter your messsage here"
                     required></textarea>
