@@ -134,7 +134,12 @@ Additional features that I would like to include in a future release would be to
  Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO.
 
  <!--Add screenshot of Lighthouse report-->
+#### Validation
+I used the W3C Markup Validation Service to check the Markup and W3C CSS Validation Service to check the CSS validity of the site.  I used these during and at the end of the project to regularly identify issues.  All html pages and the css styling page have passed with no errors/issues highlighted.
 
+<!--Add screenshots of validators-->
+
+#### Issues I Overcome
 I had 3 main issues that i manage to overcome:
 
 1. I was struggling to get the navigational bar to display correctly or in a suitable way for responsiveness on small screen sizes. I was trying to use simple html5 structural elements and attributes but to no success.  My mentor referred me to the W3Schools website to use the responsive nav bar, which i used and maniputlated the code for my site. This used JavaScript which is something i am yet to learn but grateful for this piece of advice.  The code used is credited below under Credits > Code section.
