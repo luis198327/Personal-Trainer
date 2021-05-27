@@ -129,7 +129,11 @@ Additional features that I would like to include in a future release would be to
 ### Testing User Stories From User Experience (UX) Section
 
 ### Further Testing
- I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.
+ I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.  This highlighted a few things. A couple included no title attribute for my iframe for the google map and poor contrast for the text colour in the navigational bar. One of the key ones was image file sizes. To reduce the size of these files, I used free software to compress these images and the video to save space (refer to the frameworks section for the software used).
+ 
+ Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO.
+
+ <!--Add screenshot of Lighthouse report-->
 
 I had 3 main issues that i manage to overcome:
 
