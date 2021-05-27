@@ -129,6 +129,17 @@ Additional features that I would like to include in a future release would be to
 ### Testing User Stories From User Experience (UX) Section
 
 ### Further Testing
+ I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.
+
+I had 3 main issues that i manage to overcome:
+
+1. I was struggling to get the navigational bar to display correctly or in a suitable way for responsiveness on small screen sizes. I was trying to use simple html5 structural elements and attributes but to no success.  My mentor referred me to the W3Schools website to use the responsive nav bar, which i used and maniputlated the code for my site. This used JavaScript which is something i am yet to learn but grateful for this piece of advice.  The code used is credited below under Credits > Code section.
+
+2. Within the footer where the social media links are, it was allowing you to horizontally scroll which isn't great for a user experience perspective. I was using the Chrome Dev Tools to try and pin point why this was happening and after some time realised this was due to the padding which is auto set when inserting an unordered list, which the footer uses.  The CSS was amended to inherit the padding.
+
+3. One key item I wanted to include in the website was a google map. I spent some time trying to figure out how to embed this into the aboutme.html page as my learning on this using iframes wasn't working and couldn't understand why. I was constantly getting the follow message **_"this page didn’t load google maps correctly"_**.
+
+    After googling this, I realised that Google Maps require an API key (Application Programming Interface) to use this feature.  However a workaround solution was to use the embed map option within google maps and embed the iframe code they provide.  This is credited below within the Credits > Code section.
 
 ### Known Bugs   
 
