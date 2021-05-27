@@ -109,6 +109,7 @@ Additional features that I would like to include in a future release would be to
 <!--Add links to all the resources used-->
 + [GitPod](https://www.gitpod.io/) - used as the development environment for my website. I also used Git for Version Control in the project.
 + [GitHub](https://github.com/) - used to store the projects code after being pushed from GitPod.
++ [Balsamiq](https://balsamiq.com/) - used to create the wireframes during the design process.
 + [Google fonts](https://fonts.google.com/) - used to import the 'Open Sans' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 + [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
 + [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
@@ -119,6 +120,10 @@ Additional features that I would like to include in a future release would be to
 + [Google Maps](https://www.google.com/maps/) - used to embed a location map into the website. The code is reference below and in the relevant html page.
 + [TinyPNG](https://tinypng.com/) - used to compress my images so that they reduce file size and load faster within the site.
 + [Clideo](https://clideo.com/editor/compress-video) - used to compress my video by 60% so it reduces file size and load faster within the site.
++ [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input) - used to check the markup validity of Web documents in HTML.
++ [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to check the validity of my CSS in the project.
++ [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used to test site and run Lighthouse reports
++ [Bitly](https://bitly.com/) - used to shorten web addresses used in links, such as the Google Map embeded map.
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
