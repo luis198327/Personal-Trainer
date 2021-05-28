@@ -131,7 +131,7 @@ Additional features that I would like to include in a future release would be to
 On each page there is a clickable link to take you to the enquire page which is one of the main goals to start the engagement process.  All links works and the easy navigation bar work.  The enquire form ensures there is validation and appropriate feedback if required fields are not completed correctly or completed at all.
 
 #### External User Goals
-The home page provides a clear statement of what the site aims to provide and clickable links to each of the three separate pages.  These have all been tested and work accordingly.  
+The home page provides a clear statement of what the site aims to provide and clickable links to each of the three separate pages.  These have all been tested and work accordingly and the hover over effects provide clearer clarity on what option they select.  
 
 The about me page provides details about the trainers experience and displays a welcome/demonstration video which allows a user to control its feature, ie play and control the sound for a better user experience.
 
@@ -145,6 +145,9 @@ Social media links are present on all pages with hover over effects, which open 
  Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO.
 
  <!--Add screenshot of Lighthouse report-->
+
+The responsiveness of the site works fine on all screens sizes tested using Chrome Dev Tools (from a desktop/large laptop size of 1440px wide through to a mobile device of 320px wide). With the use of media queries within the CSS, there are a number of pinch points when elements are repositioned for tablets and mobile devices for each page. 
+
 #### Validation
 I used the W3C Markup Validation Service to check the Markup and W3C CSS Validation Service to check the CSS validity of the site.  I used these during and at the end of the project to regularly identify issues.  All html pages and the css styling page have passed with no errors/issues highlighted.
 
