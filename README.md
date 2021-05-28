@@ -167,7 +167,20 @@ I had 3 main issues that i manage to overcome:
 ### Known Bugs   
 
 ## Deployment
-### GitHub Pages
+My project was developed using the IDE, Gitpod. 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
++ Within the GitHub repository, navigate to the Settings tab.
++ Then select the Pages sub-menu option on the left, which takes you to GitHub Pages. 
++ Within the source section drop-down menu, select the Master Branch and click on save.
++ Once this has been saved, the page will confirm that the site is ready to be published with the URL address.
++ Refreshing the page will confirm the website has been deployed with the URL address.
++ The deployed URL is [https://luis198327.github.io/Personal-Trainer/](https://luis198327.github.io/Personal-Trainer/).
+
+The deployed site will update automatically upon new commits to the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+
 ### Making A Local Clone
 
 ## Credits
