@@ -78,22 +78,28 @@ Use of other images are used to provide meaning behind each page/content.
 ## Features
 The site features 4 main html pages:
 1. A home page which will have a welcome message on page landing.  It will have 3 boxes in the main content to act as site navigation, to the Services offered, About me, Enquire web pages. 
-<!--Add screenshoot of the home page-->
+
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/home-page.JPG)
+
 2. A page that will outline the Services offered, which is split into 4 sub-categories:
     + Beginner - aimed for people getting into their fitness routines.
     + Intermediate - aimed for people who have either had signed up to the beginner course or wish to challenge their fitness further.
     + Advanced - designed to be more specific training for a specific goal/upcoming event.
     + Group - aimed at providing a training plan for a small group in a public area.
-    <!--Add screenshoot of the services offered page-->
+
+    ![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/services-page.JPG)
+    
 3. About me page to provide information about the personal trainer and experience including a welcome video to introduce the trainer.  For the purposes of this project, an example video was added.  Refer to Media section below for where this was taken from.
 
 The background provides a picture of the personal trainer.
-<!--Add screenshoot of the about me section-->
+
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/about-me.JPG)
+
 4. An Enquire page which will allow a user to contact the trainer for information and provide details to contact the client back in order to book a session separately. A checkbox will be available to be checked should a user wish to subscribe to a newsletter, which is optional and therefore the required attribute is not set within the code. 
-<!--Add screenshoot of the enquire form section-->
+
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/enquire.JPG)
 
 Each web page will contain a navigational bar which links to each of the 4 web pages.  The footer section will also be consistent for the user experience on each page with social media links. This will enable a user/client to follow the trainer for advice and information they share.
-<!--Add screenshoots of the nav and footer sections-->
 
 ### Features Left To Implement
 Additional features that I would like to include in a future release would be to:
@@ -153,7 +159,9 @@ The site was also checked on Chrome, Edge and Firefox browsers to ensure compata
 #### Validation
 I used the W3C Markup Validation Service to check the Markup and W3C CSS Validation Service to check the CSS validity of the site.  I used these during and at the end of the project to regularly identify issues.  All html pages and the css styling page have passed with no errors/issues highlighted.
 
-<!--Add screenshots of validators-->
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/html-validation.JPG)
+
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/css-validation.JPG)
 
 #### Issues I Overcome
 I had 3 main issues that i manage to overcome:
