@@ -190,8 +190,17 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The deployed site will update automatically upon new commits to the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-
 ### Making A Local Clone
+You can clone this repository by:
++ Logging into GitHub and locate the GitHub Repository luis198327/Personal-Trainer
++ Under the repository name and with the Code tab displayed by default, click the dropdown "Code" option.
++ This will give you the option to copy the repository using HTTPS by clicking the copy button.
++ Open Git Bash.
++ Change the current working directory to the location where you want the cloned directory to be made.
++ Type git clone and paste the URL i.e. $ git clone https://github.com/luis198327/Personal-Trainer
++ Press Enter, and your local clone will be created.
+
+Or simply clone this repository directly into the editor of your choice by pasting $ git clone https://github.com/luis198327/Personal-Trainer into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 ### Content
