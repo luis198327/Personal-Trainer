@@ -6,8 +6,7 @@ The project brief was to create a static front end project with a minimum of thr
 
 [Link to live website - https://luis198327.github.io/Personal-Trainer/index.html](https://luis198327.github.io/Personal-Trainer/index.html)
 
-
-<!--Add link to live web page here and show responsive design-->
+![alt text](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/responsive-preview.JPG)
 
 ## Personal-Trainer <!--confirm website URL-->
 The website has been created to provide a personal training service to the local and surrounding areas of Aylesbury, Buckinghamshire to keep fit with a personal training plan.
@@ -145,9 +144,7 @@ Social media links are present on all pages with hover over effects, which open 
 ### Further Testing
  I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.  This highlighted a few things. A couple included no title attribute for my iframe for the google map and poor contrast for the text colour in the navigational bar. One of the key ones was image file sizes. To reduce the size of these files, I used free software to compress these images and the video to save space (refer to the frameworks section for the software used).
  
- Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO. [Here]() is the report.
-
- <!--Add screenshot of Lighthouse report-->
+ Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO. [Here](https://github.com/luis198327/Personal-Trainer/blob/master/assets/wireframes/lighthouse-report.JPG) is the results of the report.
 
 The responsiveness of the site works fine on all screens sizes tested using Chrome Dev Tools (from a desktop/large laptop size of 1440px wide through to a mobile device of 320px wide). With the use of media queries within the CSS, there are a number of pinch points when elements are repositioned for tablets and mobile devices for each page. 
 
