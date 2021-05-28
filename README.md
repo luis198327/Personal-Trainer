@@ -4,6 +4,9 @@
 
 The project brief was to create a static front end project with a minimum of three separate page (or page areas) using HTML and CSS while following UX industry conventions.  This project is for educational use only and was created for the Code Institute Module of a Static Front End Site. 
 
+[Link to live website - https://luis198327.github.io/Personal-Trainer/index.html](https://luis198327.github.io/Personal-Trainer/index.html)
+
+
 <!--Add link to live web page here and show responsive design-->
 
 ## Personal-Trainer <!--confirm website URL-->
