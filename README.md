@@ -173,8 +173,13 @@ I had 3 main issues that i manage to overcome:
 3. One key item I wanted to include in the website was a google map. I spent some time trying to figure out how to embed this into the aboutme.html page as my learning on this using iframes wasn't working and couldn't understand why. I was constantly getting the follow message **_"this page didn’t load google maps correctly"_**.
 
     After googling this, I realised that Google Maps require an API key (Application Programming Interface) to use this feature.  However a workaround solution was to use the embed map option within google maps and embed the iframe code they provide.  This is credited below within the Credits > Code section.
+<!--To confirm bug history
+### Known Bugs/Improvements   
+Three things that I would like to improve and correct in a future release would be:
 
-### Known Bugs   
++ The height of the hero image on the home page and background image on enquire page doesn't completely cover the full area of the screen on larger screens sizes.
++ Testing on different browsers other than Chrome showed that the social media links didn't have much of a colour effect/change when the mouse is hovered over the icons, like it does with Chrome.
++ Found it difficult to resize the logo image so that it wouldn't affect the layout/positioning of the navigational bar. Preferably this would be bigger once the logo has been agreed.-->
 
 ## Deployment
 My project was developed using the IDE, Gitpod. 
