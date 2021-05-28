@@ -127,6 +127,17 @@ Additional features that I would like to include in a future release would be to
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
+#### Site Owners Goals
+On each page there is a clickable link to take you to the enquire page which is one of the main goals to start the engagement process.  All links works and the easy navigation bar work.  The enquire form ensures there is validation and appropriate feedback if required fields are not completed correctly or completed at all.
+
+#### External User Goals
+The home page provides a clear statement of what the site aims to provide and clickable links to each of the three separate pages.  These have all been tested and work accordingly.  
+
+The about me page provides details about the trainers experience and displays a welcome/demonstration video which allows a user to control its feature, ie play and control the sound for a better user experience.
+
+All pages link to the enquire form page which is easy to complete and with placeholder text, provides clarity of what information is required where.
+
+Social media links are present on all pages with hover over effects, which open on new tabs.
 
 ### Further Testing
  I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.  This highlighted a few things. A couple included no title attribute for my iframe for the google map and poor contrast for the text colour in the navigational bar. One of the key ones was image file sizes. To reduce the size of these files, I used free software to compress these images and the video to save space (refer to the frameworks section for the software used).
