@@ -142,11 +142,13 @@ Social media links are present on all pages with hover over effects, which open 
 ### Further Testing
  I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.  This highlighted a few things. A couple included no title attribute for my iframe for the google map and poor contrast for the text colour in the navigational bar. One of the key ones was image file sizes. To reduce the size of these files, I used free software to compress these images and the video to save space (refer to the frameworks section for the software used).
  
- Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO.
+ Running a lighthouse report against my website produces excellent results against its Performance, Accessibility, Best Practices and SEO. [Here]() is the report.
 
  <!--Add screenshot of Lighthouse report-->
 
 The responsiveness of the site works fine on all screens sizes tested using Chrome Dev Tools (from a desktop/large laptop size of 1440px wide through to a mobile device of 320px wide). With the use of media queries within the CSS, there are a number of pinch points when elements are repositioned for tablets and mobile devices for each page. 
+
+The site was also checked on Chrome, Edge and Firefox browsers to ensure compatability across these.
 
 #### Validation
 I used the W3C Markup Validation Service to check the Markup and W3C CSS Validation Service to check the CSS validity of the site.  I used these during and at the end of the project to regularly identify issues.  All html pages and the css styling page have passed with no errors/issues highlighted.
