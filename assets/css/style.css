@@ -137,16 +137,13 @@ h1 h2 h3 {
   float: left;
   margin: 1rem 1rem;
   padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 
 .box-serv li {
   text-align: left;
   font-weight: 600;
-}
-
-.box-serv:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-  color: #000;
 }
 
 .click-to-enquire {
