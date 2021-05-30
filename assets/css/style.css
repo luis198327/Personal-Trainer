@@ -443,13 +443,12 @@ footer {
   .topnav a:not(:first-child) {
       display: none;
   }
+
   .topnav a.icon {
       float: right;
       display: block;
   }
 
-
-/*@media screen and (max-width: 600px) {*/
   .topnav.responsive {
       position: relative;
   }
@@ -472,7 +471,6 @@ footer {
 
 /* MEDIA QUERY TO CHANGE BACKGROUND IMAGE POSITION ON ENQUIRE.HTML PAGE ON SCREEN SIZES UP TO 600px */
 
-/*@media screen and (max-width: 600px) {*/
   #form {
     background-position: 25% 75%;
   }
@@ -490,10 +488,8 @@ footer {
     height: 15.63rem;
   }
 
-
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 550px */
 
-/*@media(max-width: 550px) {*/
   #me {
     height: 84.38rem;
   }
@@ -583,7 +579,6 @@ footer {
 
 /* MEDIA QUERY TO CHANGE FOOTER PADDING ON SCREEN SIZES UP TO 400px */
 
-/*@media(max-width: 400px) {*/
   .footer-social li {
     display: inline;
     padding: 0.5rem 0.5rem;
@@ -615,10 +610,8 @@ footer {
     padding: 0;
   }
 
-
 /* MEDIA QUERY TO CHANGE CONTENT ON ENQUIRE.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 360px */
 
-/*@media(max-width: 360px) {*/
   #form {
     height: 53.13rem;
   }
