@@ -193,6 +193,11 @@ h1 h2 h3 {
   margin: 0 auto;
 }
 
+#location iframe {
+  width: 60%;
+  height: 12.5rem;
+}
+
 /* ENQUIRY PAGE */
 
 #form {
