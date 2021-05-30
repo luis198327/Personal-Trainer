@@ -136,16 +136,30 @@ Additional features that I would like to include in a future release would be to
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
 #### Site Owners Goals
-On each page there is a clickable link to take you to the enquire page which is one of the main goals to start the engagement process.  All links works and the easy navigation bar work.  The enquire form ensures there is validation and appropriate feedback if required fields are not completed correctly or completed at all.
++ The main goal is to provide a bespoke training plan. 
+
+    The services page provides a base overview of what each service plan offers, and a clickable link to the enquire form to provide more details allowing the Personal Trainer to have the details to provide a recommendation.
+
++ Allow clients to contact for information and engage with their own training needs.
+
+    On each page there is a clickable link to take you to the enquire page which is one of the main goals to start the engagement process.  All links works and the easy navigation bar works too.  The enquire form ensures there is validation and appropriate feedback if required fields are not completed correctly or completed at all.
 
 #### External User Goals
-The home page provides a clear statement of what the site aims to provide and clickable links to each of the three separate pages.  These have all been tested and work accordingly and the hover over effects provide clearer clarity on what option they select.  
++ As a first time visitor to the site, I want to clearly understand what Personal Trainer offers.
 
-The about me page provides details about the trainers experience and displays a welcome/demonstration video which allows a user to control its feature, ie play and control the sound for a better user experience.
+    The home page provides a clear statement of what the site aims to provide and clickable links to each of the three separate pages.  These have all been tested and work accordingly and the hover over effects provide clearer clarity on what option is selected.  
 
-All pages link to the enquire form page which is easy to complete and with placeholder text, provides clarity of what information is required where.
++ I want to be able to know who the Personal Trainer is and what qualifications/experience the trainer is so I know that I am being trained well.
 
-Social media links are present on all pages with hover over effects, which open on new tabs.
+    The about me page provides details about the trainers experience and displays a welcome/demonstration video which allows a user to control its feature, ie play and control the sound for a better user experience. Note - the video used is just a stock video which would be replaced with a video of the trainer if this was a proper website (ie not for the purpose of this educational project).
+
++ Able to do my own research and follow the trainer on social media so I can see feedback/recommendations on the service offered.
+
+    Social media links are present on all pages with hover over effects, which open on new tabs, which allows the original website to remain available.
+
++ Able to make the necessary enquiries on how to initaliate the training program or find more information and price of the service.
+
+    All pages link to the enquire form page which is easy to complete, and with placeholder text this provides clarity of what information is required where.
 
 ### Further Testing
  I constantly tested the code in Chrome Dev Tools and ran Lighthouse to identify and fix issues that affected the site's performance, accessibility and user experience.  This highlighted a few things. A couple included no title attribute for my iframe for the google map and poor contrast for the text colour in the navigational bar. One of the key ones was image file sizes. To reduce the size of these files, I used free software to compress these images and the video to save space (refer to the frameworks section for the software used).
