@@ -27,9 +27,9 @@ h1 h2 h3 {
   color: #090c18;
   text-align: center;
   font-weight: 500;
-  padding: 24px 24px;
+  padding: 1.5rem 1.5rem;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.13rem;
 }
 
 .topnav a:hover {
@@ -56,7 +56,7 @@ h1 h2 h3 {
 /* WELCOME SECTION TITLE AND HERO IMAGE */
 
 #welcome {
-  height: 700px;
+  height: 43.75rem;
   width: 100%;
 }
 
@@ -85,10 +85,10 @@ h1 h2 h3 {
 /* 3 OPTION BOXES ON HOME PAGE */
 
 .options {
-  height: 350px;
+  height: 21.88rem;
   width: 100%;
   text-align: center;
-  padding: 50px 0;
+  padding: 3.12rem 0;
 }
 
 .options a {
@@ -122,17 +122,17 @@ h1 h2 h3 {
 /* SERVICES PAGE */
 
 #services-container {
-  height: 800px;
+  height: 50rem;
   width: 100%;
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 1.25rem 0 0 0;
   background: url('../images/services-image.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .box-serv {
-  height: 250px;
+  height: 15.63rem;
   width: 45%;
   float: left;
   margin: 1rem 1rem;
@@ -150,7 +150,7 @@ h1 h2 h3 {
 }
 
 .click-to-enquire {
-  height: 50px;
+  height: 3.12rem;
   width: 95%;
   float: left;
   margin: 1rem 1rem;
@@ -160,17 +160,17 @@ h1 h2 h3 {
 /* ABOUTME PAGE */
 
 #me {
-  height: 900px;
+  height: 56.25rem;
   width: 100%;
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   background: url('../images/about-me.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .box-me {
-  height: 460px;
+  height: 28.75rem;
   width: 45%;
   float: left;
   margin: 1rem 1rem;
@@ -182,16 +182,16 @@ h1 h2 h3 {
 }
 
 #video video {
-  height: 350px;
+  height: 21.88rem;
   width: 100%;
   position: relative;
-  top: 50px;
+  top: 3.12rem;
   padding: 0;
 }
 
 #location {
   width: 100%;
-  height: 250px;
+  height: 15.66rem;
   float: left;
   margin: 0 auto;
 }
@@ -202,11 +202,11 @@ h1 h2 h3 {
   background: url('../images/enquire.jpeg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 720px;
+  height: 45rem;
 }
 
 #enquire-form {
-  max-width: 800px;
+  max-width: 50rem;
   padding: 1rem;
   margin: 0 auto;    
 }
@@ -221,7 +221,7 @@ fieldset label {
 
 .text-input {
   width: 100%;
-  height: 30px;
+  height: 1.88rem;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -235,7 +235,7 @@ fieldset label {
 
 .submit {
   width: 100%;
-  height: 50px;
+  height: 3.12rem;
   font-weight: bold;
   background: rgba(170, 169, 173, 0.3);
   border: 1px solid black;
@@ -279,7 +279,7 @@ footer {
 
 .footer-social i {
   font-size: 160%;
-  padding: 10px;
+  padding: 0.63rem;
 }
 
 .footer-social a:hover {
@@ -292,12 +292,12 @@ footer {
 
 @media(max-width: 1032px) {
   #me {
-    height: 1100px;
+    height: 68.75rem;
     background-position: 20% 80%;
   }
   
   .box-me {
-    height: 380px;
+    height: 23.75rem;
     width: 100%;
     display: block;
     float: left;
@@ -306,7 +306,7 @@ footer {
   }
 
   #bio p {
-    padding: 0 50px;
+    padding: 0 3.12rem;
   }
 
   #video video {
@@ -316,7 +316,7 @@ footer {
     height: 90%;
     width: 90%;
     position: static;
-    top: 50px;
+    top: 3.12rem;
     padding: 0 1rem;
   }
   
@@ -329,11 +329,11 @@ footer {
 
 @media(max-width: 980px) {
   #services-container {
-    height: 1000px;
+    height: 62.5rem;
   }
 
   .box-serv {
-    height: 200px;
+    height: 12.5rem;
     width: 96%;
     float: left;
     margin: 0 1rem;
@@ -372,7 +372,7 @@ footer {
   }
 
   #hero-image {
-    height: 220px;
+    height: 13.75rem;
     width: 100%;
     background-attachment: unset;
   }
@@ -398,11 +398,11 @@ footer {
 
 @media(max-width: 800px) {
   #me {
-    height: 1200px;
+    height: 75rem;
   }
 
   .box-me {
-    height: 420px;
+    height: 26.25rem;
     width: 100%;
     display: block;
     float: left;
@@ -419,11 +419,11 @@ footer {
 
 @media(max-width: 730px) {
   #services-container {
-    height: 1200px;
+    height: 75rem;
   }
 
   .box-serv {
-    height: 250px;
+    height: 15.63rem;
   }
 }
 
@@ -431,7 +431,7 @@ footer {
 
 @media screen and (max-width: 700px) {
   #form {
-    height: 750px;
+    height: 46.88rem;
   }
 }
 
@@ -480,12 +480,12 @@ footer {
 
 @media(max-width: 550px) {
   #services-container {
-    height: 1200px;
+    height: 75rem;
     background-position: left;
   }
 
   .box-serv {
-    height: 250px;
+    height: 15.63rem;
   }
 
 
@@ -493,11 +493,11 @@ footer {
 
 /*@media(max-width: 550px) {*/
   #me {
-    height: 1350px;
+    height: 84.38rem;
   }
 
   .box-me {
-    height: 480px;
+    height: 30rem;
     width: 100%;
     display: block;
     float: left;
@@ -517,7 +517,7 @@ footer {
 
 @media(max-width: 480px) {
   #form {
-    height: 800px;
+    height: 50rem;
   }
 }
 
@@ -525,11 +525,11 @@ footer {
 
 @media(max-width: 460px) {
   #me {
-    height: 1500px;
+    height: 93.75rem;
   }
 
   .box-me {
-    height: 550px;
+    height: 34.38rem;
     width: 100%;
     display: block;
     float: left;
@@ -542,7 +542,7 @@ footer {
 
 @media(max-width: 420px) {
   #hero-image {
-    height: 250px;
+    height: 15.63rem;
     width: 100%;
   }
   
@@ -555,11 +555,11 @@ footer {
 
 @media(max-width: 410px) {
   #services-container {
-    height: 1400px;
+    height: 87.5rem;
   }
 
   .box-serv {
-    height: 290px;
+    height: 18.13rem;
   }
 }
 
@@ -567,11 +567,11 @@ footer {
 
 @media(max-width: 400px) {
   #me {
-    height: 1600px;
+    height: 100rem;
   }
 
   .box-me {
-    height: 600px;
+    height: 37.5rem;
     width: 100%;
     display: block;
     float: left;
@@ -592,7 +592,7 @@ footer {
 
 @media(max-width: 365px) {
   #hero-image {
-    height: 275px;
+    height: 17.19rem;
     width: 100%;
   }
 }
@@ -601,11 +601,11 @@ footer {
 
 @media(max-width: 360px) {
   #me {
-    height: 1675px;
+    height: 104.69rem;
   }
 
   .box-me {
-    height: 650px;
+    height: 40.63rem;
     width: 100%;
     display: block;
     float: left;
@@ -618,6 +618,6 @@ footer {
 
 /*@media(max-width: 360px) {*/
   #form {
-    height: 850px;
+    height: 53.13rem;
   }
 }
