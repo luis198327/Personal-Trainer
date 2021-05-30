@@ -2,7 +2,7 @@
 
 ## Code Institute Mile Stone 1 Project - Static Front End Site
 
-The project brief was to create a static front end project with a minimum of three separate page (or page areas) using HTML and CSS while following UX industry conventions.  This project is for educational use only and was created for the Code Institute Module of a Static Front End Site. 
+The Code Institute project brief was to create a static front end project with a minimum of three separate pages (or page areas) using HTML and CSS while following UX industry conventions. As per the Code Institute course and methods, this was designed from a Desktop to Mobile site, so uses media queries within the CSS to have max-width break points. This project is for educational use only.
 
 [Link to live website - https://luis198327.github.io/Personal-Trainer/index.html](https://luis198327.github.io/Personal-Trainer/index.html)
 
@@ -132,6 +132,7 @@ Additional features that I would like to include in a future release would be to
 + [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to check the validity of my CSS in the project.
 + [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used to test site and run Lighthouse reports
 + [Bitly](https://bitly.com/) - used to shorten web addresses used in links, such as the Google Map embeded map.
++ [Favicon](https://www.favicon-generator.org/search/---/P) - used to import favicon image (PT image)
 
 ## Testing
 ### Testing User Stories From User Experience (UX) Section
