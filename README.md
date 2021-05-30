@@ -236,7 +236,7 @@ Or simply clone this repository directly into the editor of your choice by pasti
 + The image used for the Services option box background is taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
 + The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
 + The image for the Enquire options box background is taken from [pexels](https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/) website.
-+ Video under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). 
++ Video under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). Note - this does not have sound so the user control to apply sound will not work.
 
 ### Acknowledgements
 + I used the Code Institute GitHub template as a basis for setting up my repository.

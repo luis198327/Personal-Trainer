@@ -284,8 +284,12 @@ footer {
   padding: 0.63rem;
 }
 
+.footer-social a {
+  color: #1C3FEC;
+}
+
 .footer-social a:hover {
-  color: #1c3fec;
+  color: #800080;
 }
 
 /* MEDIA QUERIES */
