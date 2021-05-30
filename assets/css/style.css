@@ -445,9 +445,9 @@ footer {
       float: right;
       display: block;
   }
-}
 
-@media screen and (max-width: 600px) {
+
+/*@media screen and (max-width: 600px) {*/
   .topnav.responsive {
       position: relative;
   }
@@ -467,11 +467,10 @@ footer {
   #welcome h1 {
     text-align: center;
   }
-}
 
 /* MEDIA QUERY TO CHANGE BACKGROUND IMAGE POSITION ON ENQUIRE.HTML PAGE ON SCREEN SIZES UP TO 600px */
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {*/
   #form {
     background-position: 25% 75%;
   }
@@ -488,11 +487,11 @@ footer {
   .box-serv {
     height: 250px;
   }
-}
+
 
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 550px */
 
-@media(max-width: 550px) {
+/*@media(max-width: 550px) {*/
   #me {
     height: 1350px;
   }
@@ -564,7 +563,6 @@ footer {
   }
 }
 
-
 /* MEDIA QUERY TO CHANGE IMAGE AND CONTENT ON ABOUTME.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 400px */
 
 @media(max-width: 400px) {
@@ -580,11 +578,10 @@ footer {
     margin: 0;
     padding: 0;
   }
-}
 
 /* MEDIA QUERY TO CHANGE FOOTER PADDING ON SCREEN SIZES UP TO 400px */
 
-@media(max-width: 400px) {
+/*@media(max-width: 400px) {*/
   .footer-social li {
     display: inline;
     padding: 0.5rem 0.5rem;
@@ -615,11 +612,11 @@ footer {
     margin: 0;
     padding: 0;
   }
-}
+
 
 /* MEDIA QUERY TO CHANGE CONTENT ON ENQUIRE.HTML PAGE TO POSITION ON SCREEN SIZES UP TO 360px */
 
-@media(max-width: 360px) {
+/*@media(max-width: 360px) {*/
   #form {
     height: 850px;
   }
