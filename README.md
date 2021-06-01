@@ -199,7 +199,7 @@ I had 4 main issues that i manage to overcome:
 ### Known Bugs/Improvements   
 Two things that I would like to improve and correct in a future release would be:
 
-+ On larger screens sizes, for example on 4K 2560px screen sizes, the content doesn't fill the full view port area. With more content that would be added in future releases, this will helo to fill this on larger screen sizes.
++ On larger screens sizes, for example on 4K 2560px screen sizes, the content doesn't fill the full view port area. With more content that would be added in future releases, this will help to fill this on larger screen sizes.
 
 + I found it difficult to resize the logo image so that it wouldn't affect the layout/positioning of the navigational bar. Preferably this would be larger so that it is clear and provide more meaning, once the logo has been agreed.
 
