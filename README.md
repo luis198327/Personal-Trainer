@@ -120,7 +120,7 @@ Additional features that I would like to include in a future release would be to
 + [GitHub](https://github.com/) - used to store the projects code after being pushed from GitPod.
 + [Balsamiq](https://balsamiq.com/) - used to create the wireframes during the design process.
 + [Google fonts](https://fonts.google.com/) - used to import the 'Raleway' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
-+ [WebAim](https://webaim.org/resources/contrastche) - used to check the contrast of foreground and background text/colours to ensure they pass.
++ [WebAim](https://webaim.org/resources/contrastchecker/) - used to check the contrast of foreground and background text/colours to ensure they pass.
 + [Font Awesome](https://fontawesome.com/) - used to import icons into my website for social media links as an example.
 + Google Images - used to search for images for website including logo and hero image.  Details can be found under the Credits section.
 + [W3Schools](https://www.w3schools.com/) - used to refer to as additional support and to insert code into my webpage.  The code used is referenced in the Code section below. 
@@ -241,7 +241,7 @@ Or simply clone this repository directly into the editor of your choice by pasti
 + The Personal Trainer logo was searched using google images and taken from [the hungry jpeg](https://thehungryjpeg.com/product/3804709-monogram-pt-logo-design) website.
 + The Personal Trainer hero image was searched using google images and taken from [elevate fitness](https://elevatesyracuse.com/ten-reasons-to-become-a-personal-trainer/) website.
 + The image used for the Services option box background is taken from [pikwizard](https://pikwizard.com/?q=trainer) website.
-+ The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website.
++ The image for the About Me options box background is taken from [mens nutrition](http://www.mensnutrition.com/page/4/) website, and then by scrolling to the Fitness Warnings article.
 + The image for the Enquire options box background is taken from [pexels](https://www.pexels.com/photo/crop-businessman-giving-contract-to-woman-to-sign-3760067/) website.
 + Video under the About Me page was taken from [Stock Adobe](https://adobe.ly/3u7EziI). Note - this does not have sound so the user control to enable the sound will not work.
 
